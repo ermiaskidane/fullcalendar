@@ -23,7 +23,7 @@ function Calendar() {
 
   const handleEventAdd = async (data) => {
     console.log(data)
-    await axios.post('/api/calendar/create-cevent', data.event)
+    await axios.post('/api/calendar/create-event', data.event)
   }
 
   const handleDatesSet = async (data) => {
